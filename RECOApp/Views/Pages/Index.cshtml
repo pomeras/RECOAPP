@@ -1,0 +1,65 @@
+@model IEnumerable<RECOApp.Models.Page>
+
+@{
+    ViewData["Title"] = "Pages";
+}
+
+<h2>Pages</h2>
+
+<p>
+    <a asp-controller="Documents" asp-action="Details" asp-route-id="@ViewBag.DocumentId">Back to Document Details</a>
+</p>
+<p>
+    <a asp-action="Create" asp-route-documentId="@ViewBag.DocumentId">Create New Page</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Number)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Content)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CreatedDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CreatedBy)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    @if (Model.Any())
+    {
+        foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Number)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Content)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedBy)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+        }
+    }
+    else
+    {
+        <tr><td col-span="5">No Pages</td></tr>
+    }
+    </tbody>
+</table>
+
