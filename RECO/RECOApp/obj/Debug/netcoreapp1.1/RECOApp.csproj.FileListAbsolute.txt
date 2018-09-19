@@ -1,0 +1,9 @@
+C:\Develop\RECO\RECOApp\RECOApp\bin\Debug\netcoreapp1.1\RECOApp.deps.json
+C:\Develop\RECO\RECOApp\RECOApp\bin\Debug\netcoreapp1.1\RECOApp.runtimeconfig.json
+C:\Develop\RECO\RECOApp\RECOApp\bin\Debug\netcoreapp1.1\RECOApp.runtimeconfig.dev.json
+C:\Develop\RECO\RECOApp\RECOApp\bin\Debug\netcoreapp1.1\RECOApp.dll
+C:\Develop\RECO\RECOApp\RECOApp\obj\Debug\netcoreapp1.1\RECOApp.csprojResolveAssemblyReference.cache
+C:\Develop\RECO\RECOApp\RECOApp\obj\Debug\netcoreapp1.1\RECOApp.AssemblyInfo.cs
+C:\Develop\RECO\RECOApp\RECOApp\bin\Debug\netcoreapp1.1\RECOApp.pdb
+C:\Develop\RECO\RECOApp\RECOApp\obj\Debug\netcoreapp1.1\RECOApp.dll
+C:\Develop\RECO\RECOApp\RECOApp\obj\Debug\netcoreapp1.1\RECOApp.pdb
